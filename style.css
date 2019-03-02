@@ -1,0 +1,196 @@
+/*removing all margins and paddings*/
+
+*{
+  padding : 0 ;
+  margin: 0 ;
+}
+
+html,body{
+  height: 100%;
+}
+/*header stylings*/
+
+header{
+  height: 80px;
+  width:90%;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #4b5b6b;
+}
+
+#recipe-heading{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.main-nav{
+  display: flex;
+  flex-direction: row;
+}
+.link{
+  margin-left:50px;
+}
+li{
+  list-style:none;
+}
+/*link decorations*/
+.header-link{
+  text-decoration:none;
+  color: #4b5b6b;
+}
+.header-link:hover{
+  background-color: #4b5b6b;
+  color:#fff;
+}
+/*body stylings*/
+
+h1,h2,h3,p{
+  font-family: "Open Sans", Arial, sans-serif;
+  color:#4b5b6b;
+}
+
+h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#make-white{
+  color:#fff;
+}
+body{
+  font-family: verdana;
+}
+.some-recipes{
+  text-align: center;
+  width:1000px;
+  margin:0 auto;
+}
+main{
+  overflow: hidden;
+}
+.item{
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#contact-page{
+    background-image: url("images/contactback.png");
+    background-size: cover;
+}
+
+#contact-main-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.float-adress{
+  float:left;
+}
+
+.center-this{
+  text-align: center;
+}
+/*banner styles*/
+
+.banner{
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/*all photo styles*/
+
+.food-photo{
+  width:300px;
+  height:225px;
+}
+
+/*footer stylings*/
+
+footer{
+  height: 80px;
+  color: #4b5b6b;
+  display: flex;
+  justify-content: center;
+}
+#index-footer{
+  margin-top: 50px;
+  background-color: #eee;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.space{
+  padding: 10px;
+}
+.left-line{
+  border-left: 1px solid #4b5b6b;
+}
+
+#contact-footer{
+  width: 90%;
+  margin: 75px auto 0 auto;
+  border-top: 1px solid #4b5b6b;
+  height: 100px;
+}
+/*button designs*/
+.button{
+  background-color: #369;
+  border-radius: 2px;
+  width:100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .4s, .8s;
+  transition-property: background, border-radius;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.button:hover{
+  background: #58c955;
+  border-radius: 10px;
+}
+.button:active{
+  background: #109334;
+}
+.button-link{
+  color:#fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+/*icons stylings*/
+.icon{
+  font-size: 2.0em;
+  color:#4b5b6b;
+}
+.icon-margin{
+  margin: 20px 0;
+}
+.border{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color:#fff;
+  width:50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #4b5b6b;
+}
